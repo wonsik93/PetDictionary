@@ -12,19 +12,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Login">
+        <activity android:name=".activity.Intro">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Register"/>
-        <activity android:name=".Main"/>
-        <activity android:name=".Zxing"
+        <activity android:name=".activity.Login"/>
+        <activity android:name=".activity.Register"/>
+        <activity android:name=".activity.Main"/>
+        <activity android:name=".activity.Zxing"
             android:screenOrientation="fullSensor"
             android:stateNotNeeded="true"
             android:theme="@style/zxing_CaptureTheme"
             android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:name=".activity.Barcode"/>
         </application>
+
 
 </manifest>

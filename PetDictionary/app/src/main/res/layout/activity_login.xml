@@ -27,18 +27,31 @@
         android:id="@+id/Login_BTN_login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Login"
-        android:layout_marginBottom="22dp"
         android:layout_above="@+id/Login_BTN_register"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="22dp"
+        android:background="@color/color_button_back"
+        android:text="Login"
+        android:textColor="@color/color_button_text" />
 
     <Button
         android:id="@+id/Login_BTN_register"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Register"
-        android:layout_marginBottom="120dp"
-        android:layout_alignParentBottom="true"
         android:layout_alignLeft="@+id/Login_BTN_login"
-        android:layout_alignStart="@+id/Login_BTN_login" />
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/Login_BTN_login"
+        android:layout_marginBottom="120dp"
+        android:background="@color/color_button_back"
+        android:text="Register"
+        android:textColor="@color/color_button_text" />
+
+    <CheckBox
+        android:id="@+id/Login_CB_saveid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Login_ET_password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:text="아이디 저장" />
 </RelativeLayout>

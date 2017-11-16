@@ -1,4 +1,4 @@
-package com.example.wonsi.petdictionary;
+package com.example.wonsi.petdictionary.activity;
 
 import android.content.Intent;
 import android.graphics.Color;

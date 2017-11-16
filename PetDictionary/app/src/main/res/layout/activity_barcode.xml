@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/Barcode_TV_barcode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/Barcode_TV_foodname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/Barcode_TV_barcode"
+        android:layout_alignRight="@+id/Barcode_TV_barcode"
+        android:layout_below="@+id/Barcode_TV_barcode"
+        android:layout_marginTop="27dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/Barcode_TV_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Barcode_TV_foodname"
+        android:layout_alignStart="@+id/Barcode_TV_foodname"
+        android:layout_below="@+id/Barcode_TV_foodname"
+        android:layout_marginTop="28dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/Barcode_TV_foodweight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/Barcode_TV_price"
+        android:layout_alignRight="@+id/Barcode_TV_price"
+        android:layout_below="@+id/Barcode_TV_price"
+        android:layout_marginTop="21dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/Barcode_TV_origin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/Barcode_TV_foodweight"
+        android:layout_alignRight="@+id/Barcode_TV_foodweight"
+        android:layout_below="@+id/Barcode_TV_foodweight"
+        android:layout_marginTop="35dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/Barcode_TV_functional"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Barcode_TV_maker"
+        android:layout_alignStart="@+id/Barcode_TV_maker"
+        android:layout_below="@+id/Barcode_TV_maker"
+        android:layout_marginTop="26dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/Barcode_TV_whom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/Barcode_TV_functional"
+        android:layout_alignRight="@+id/Barcode_TV_functional"
+        android:layout_below="@+id/Barcode_TV_functional"
+        android:layout_marginTop="28dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/Barcode_TV_maker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Barcode_TV_origin"
+        android:layout_alignStart="@+id/Barcode_TV_origin"
+        android:layout_below="@+id/Barcode_TV_origin"
+        android:layout_marginTop="31dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/Barcode_TV_agefrom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Barcode_TV_whom"
+        android:layout_alignStart="@+id/Barcode_TV_whom"
+        android:layout_below="@+id/Barcode_TV_whom"
+        android:layout_marginTop="22dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/Barcode_TV_ageto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Barcode_TV_agefrom"
+        android:layout_alignStart="@+id/Barcode_TV_agefrom"
+        android:layout_below="@+id/Barcode_TV_agefrom"
+        android:layout_marginTop="33dp"
+        android:text="TextView" />
+</RelativeLayout>

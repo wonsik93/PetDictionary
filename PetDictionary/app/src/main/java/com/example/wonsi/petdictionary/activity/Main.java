@@ -1,4 +1,4 @@
-package com.example.wonsi.petdictionary;
+package com.example.wonsi.petdictionary.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,8 +6,8 @@ import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
-import android.widget.Toast;
 
+import com.example.wonsi.petdictionary.R;
 import com.google.zxing.integration.android.IntentIntegrator;
 import com.google.zxing.integration.android.IntentResult;
 
@@ -38,7 +38,10 @@ public class Main  extends AppCompatActivity {
         super.onActivityResult(requestCode, resultCode, data);
         if (requestCode == IntentIntegrator.REQUEST_CODE){
             IntentResult result = IntentIntegrator.parseActivityResult(requestCode,resultCode, data);
-            Toast.makeText(Main.this,result.getContents() + " " + result.getFormatName(), Toast.LENGTH_SHORT).show();
+            Intent intent = new Intent(Main.this, Barcode.class);
+            intent.putExtra("barcode",result.getContents());
+            startActivity(intent);
+
         }
     }
 }

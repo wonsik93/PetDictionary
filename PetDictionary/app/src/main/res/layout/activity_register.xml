@@ -3,7 +3,7 @@
     android:layout_width="match_parent" android:layout_height="match_parent">
 
     <EditText
-        android:id="@+id/ET_ID"
+        android:id="@+id/Register_ET_ID"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -13,20 +13,20 @@
         android:inputType="textPersonName" />
 
     <EditText
-        android:id="@+id/ET_Password"
+        android:id="@+id/Register_ET_Password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/ET_ID"
-        android:layout_alignRight="@+id/ET_ID"
+        android:layout_alignEnd="@+id/Register_ET_ID"
+        android:layout_alignRight="@+id/Register_ET_ID"
         android:layout_centerVertical="true"
         android:ems="10"
         android:inputType="textPassword" />
 
     <Button
-        android:id="@+id/BTN_register"
+        android:id="@+id/Register_BTN_register"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/ET_Password"
+        android:layout_below="@+id/Register_ET_Password"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"
         android:text="Button" />
